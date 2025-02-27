@@ -124,3 +124,11 @@ sort "Filenamme" | uniq -d
 ## 行末指定
 ![image](https://github.com/user-attachments/assets/a6abbef4-3175-4a39-bea5-c614e010c191)
 
+## コマンドの保存場所(絶対パス)表示
+![image](https://github.com/user-attachments/assets/37068781-f4fa-49aa-a934-0857760bcd4b)
+
+## コマンドの保存場所・ソースコード・マニュアル表示
+![image](https://github.com/user-attachments/assets/3ec2d470-b376-44c1-b458-0058bd3512f2)
+
+
+
