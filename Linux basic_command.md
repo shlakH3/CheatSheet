@@ -74,6 +74,13 @@ tr -d "string" < "Filename"
 ![image](https://github.com/user-attachments/assets/d720c3e7-2daf-4ea8-91c3-03a561794c2f)
 ![image](https://github.com/user-attachments/assets/040fc4bd-30bc-46e4-bd43-7fd72c8bdf32)
 
+## 指定した文字から始める文字列の削除
+~~~
+sed -i '/^"string"/d' "Filename"
+~~~
+![image](https://github.com/user-attachments/assets/bbb2ec5c-c231-4896-9d2f-9373ef56b4b9)
+
+
 ## 文字置換
 ~~~
 "Filename" | tr 'a-z' 'A-Z'
@@ -115,6 +122,20 @@ sort "Filenamme" | uniq -d
 ![image](https://github.com/user-attachments/assets/90ad8621-f268-428c-8ed0-aa54a45b28c0)
 
 ![image](https://github.com/user-attachments/assets/5d797083-e91e-4873-aa72-ccbab907aaef)
+
+## 行数
+~~~
+cat "Filename" | wc -l
+~~~
+## 改行含めた文字数
+~~~
+cat "Filename" | wc -m
+~~~
+## 改行含めない文字数
+~~~
+cat "Filename" | td -d "\n" | wc -m
+~~~
+
 # 正規表現
 ![image](https://github.com/user-attachments/assets/166e4ca9-e129-4e65-a5d9-73d431c37660)
 
